@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+
+import Div1 from './components/div1.jsx';
+import Div2 from './components/div2.jsx';
+import Div3 from './components/div3.jsx';
+import Div4 from './components/div4.jsx';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+   <>
+    <Div1/>
+    <Div2/>
+    <Div3/>
+    <Div4/>
+</>
+  )
 }
 
 export default App;
