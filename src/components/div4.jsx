@@ -1,4 +1,4 @@
-import img1 from "./images/div4img.jpg";
+import img1 from "./images/whycourse.jpg";
 import img2 from "./images/steps.jpg";
 import "./css/div3.scss";
 import "./css/div3android.scss";

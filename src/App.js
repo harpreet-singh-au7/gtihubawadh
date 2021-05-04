@@ -10,6 +10,12 @@ import Div7 from "./components/Schedule_cards.jsx";
 import Scholarship_lim from "./components/Scholarship";
 import Topheader from "./components/Header/Hedaer.tsx";
 import CourseCo from "./components/CourseCo.jsx";
+import Instructors from "./components/Instructors.jsx";
+import Experts from "./components/Experts.jsx";
+import Fee from "./components/Fee.jsx";
+import Footer from "./components/Footer.jsx";
+import Selection from "./components/Selcection.jsx";
+
 
 function App() {
   return (
@@ -17,15 +23,20 @@ function App() {
       <Topheader />
       <Div1 />
       <Div2 />
+      <Selection />
       <Div3 />
       <Div4 />
       <Div7 />
+      <Instructors />
+      <Experts />
+      <Fee />
       <Scholarship_lim />
       <Button />
       <CourseCo />
       <Div5 />
       <Div5_p2 />
       <Div6 />
+      <Footer />
     </>
   );
 }

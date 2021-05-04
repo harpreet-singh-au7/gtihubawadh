@@ -16,7 +16,16 @@
   z-index: 999999;
   overflow: hidden;
 }
-.menu {
+.tocursor {
+  cursor: pointer;
+}
+a,
+a:hover {
+  color: inherit;
+}
+.menu_item {
+  color: inherit;
+  scroll-behavior: smooth;
 }
 .btn_apply {
   border: 0.5px solid black;
@@ -79,5 +88,12 @@
   }
   .person_icon {
     display: none !important;
+  }
+  .logo1 {
+    margin-left: -4rem;
+    top: -7px;
+  }
+  .topheader {
+    height: 10vh;
   }
 }

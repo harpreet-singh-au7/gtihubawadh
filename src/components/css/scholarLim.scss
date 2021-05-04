@@ -1,5 +1,11 @@
 #scholar_lim {
   margin-bottom: 5%;
+  @media screen and (max-width: 599px) {
+    h1 {
+      font-size: 1.5em;
+      margin-left: 1rem;
+    }
+  }
   @media screen and (min-width: 997px) {
     #container1 {
       margin-right: auto;

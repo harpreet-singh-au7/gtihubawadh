@@ -1,50 +1,48 @@
-#div2{
+#div2 {
+  padding-top: 10%;
 
-    @media screen and (min-width:997px){
-
-        #container1{
-            padding:2%;
-        }
-
-        #p1{
-            width:90%;
-            font-size:1.5em;
-        }
-        body{
-            font-family: 'Signika', sans-serif;
-        }
-
-        #card1{
-            width:100%;
-            border:0px solid white;
-
-        }
-        .card ,.card-header, .card-footer ,.card-body{
-            background-color: white;
-            border:0px solid white;
-            text-align:center;
-            color:grey;
-            width:100%;
-        }
-        #cardp{
-            font-size:1.2em;
-            width:100%;
-        }
-        #cardsub{
-            font-size:1.3em;
-
-        }
-        #cardimg{
-            width:60%;
-        }
-        ul {
-            list-style: square;
-          }
-          li{
-            text-align: left;
-          }
-
-     
-
+  @media screen and (min-width: 997px) {
+    #container1 {
+      padding: 2%;
     }
+
+    #p1 {
+      width: 90%;
+      font-size: 1.5em;
+    }
+    body {
+      font-family: "Signika", sans-serif;
+    }
+
+    #card1 {
+      width: 100%;
+      border: 0px solid white;
+    }
+    .card,
+    .card-header,
+    .card-footer,
+    .card-body {
+      background-color: white;
+      border: 0px solid white;
+      text-align: center;
+      color: grey;
+      width: 100%;
+    }
+    #cardp {
+      font-size: 1.2em;
+      width: 100%;
+    }
+    #cardsub {
+      font-size: 1.3em;
+    }
+    #cardimg {
+      width: 60%;
+    }
+    ul {
+      list-style: square;
+    }
+    li {
+      text-align: left;
+    }
+  }
 }

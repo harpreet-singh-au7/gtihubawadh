@@ -18,4 +18,15 @@
     border-radius: 25px;
     font-size: 2em;
   }
+  @media screen and (max-width: 576px) {
+    button {
+      float: right;
+      width: 40%;
+      border-radius: 25px;
+      font-size: 1em;
+    }
+    #para {
+      font-size: 1em;
+    }
+  }
 }

@@ -8,7 +8,7 @@ import img4 from "./images/resume.png";
 
 function Div2() {
   return (
-    <div id="div2">
+    <div id="div2" style={{ position: "relative" }}>
       <div className="container1">
         <div class="row" id="row2">
           <div className="col-md-6 col-sm-12 col-xs-12">

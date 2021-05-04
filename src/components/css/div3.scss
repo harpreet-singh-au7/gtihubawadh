@@ -1,57 +1,55 @@
-#div3{
+#div3 {
+  position: relative;
+  padding-top: 9%;
 
+  margin-bottom: 5%;
+  #container3 {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-margin-bottom:5%;
-    #container3{
-        width:90%;
-        margin-left:auto;
-        margin-right: auto;
-    }
-    
+  #container4 {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body {
+    font-family: "Signika", sans-serif;
+  }
+  li {
+    color: grey;
+    font-size: 1.2em;
+  }
+  #para {
+    font-size: 2em;
+  }
+  #container5 {
+    margin-top: 2%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5%;
+    border-radius: 20px;
+    background-color: #e9f3ff;
+    border: 2px solid grey;
+  }
+  button {
+    float: right;
+    width: 40%;
+    border-radius: 25px;
+    font-size: 2em;
+  }
 
-    #container4{
-        width:90%;
-        margin-left:auto;
-        margin-right: auto;
+  @media screen and (max-width: 576px) {
+    button {
+      float: right;
+      width: 40%;
+      border-radius: 25px;
+      font-size: 1em;
     }
-    body{
-        font-family: 'Signika', sans-serif;
+    #para {
+      font-size: 1em;
     }
-    li{
-        color:grey;
-        font-size:1.2em;
-    }
-#para{
-    font-size:2em;
-}
-    #container5{
-        margin-top:2%;
-        width:90%;
-        margin-left: auto;
-        margin-right: auto;
-        padding:5%;
-        border-radius:20px;
-        background-color: #E9F3FF;
-        border:2px solid grey;
-    }
-    button{
-        float:right;
-        width:40%;
-        border-radius:25px;
-        font-size:2em;
-    }
-
-
-    @media  screen and (max-width:576px) {
-        button{
-            float:right;
-            width:40%;
-            border-radius:25px;
-            font-size:1em;
-
-        }
-        #para{
-            font-size:1em;
-        }
-    }
+  }
 }
