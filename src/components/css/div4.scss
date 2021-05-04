@@ -1,50 +1,73 @@
+#div4 {
+  margin-bottom: 50%;
 
-    #div4{
-margin-bottom:50%;
-
-body{
-    font-family: 'Signika', sans-serif;
-}
-#container1{
-    width:90%;
-    margin-left:auto;
+  body {
+    font-family: "Signika", sans-serif;
+  }
+  #container7 {
+    margin-top: 2%;
+    width: 90% !important;
+    margin-left: auto;
     margin-right: auto;
-    margin-bottom:5%;
-}
-
-#heading1{
-
-  font-size:  4em;
-}
-#para1{
-    font-size:1.2em;
-    color:grey;
-}
-#container5{
-   
-    height:100%;
-width:100%;
-}
-#img{
-    width:100%;
-}
-#container6{
-    width:90%;
+    padding: 5%;
+    border-radius: 20px;
+    background-color: #e9f3ff;
+    border: 2px solid grey;
+  }
+  #container5 {
+    margin-top: 2%;
+    width: 90%;
+    margin-left: auto;
     margin-right: auto;
-    margin-left:auto;
+    padding: 5%;
+    border-radius: 20px;
+    background-color: #e9f3ff;
+    border: 2px solid grey;
+  }
+  button {
+    float: right;
+    width: 40%;
+    border-radius: 25px;
+    font-size: 2em;
+  }
+  #container1 {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+  }
 
+  #heading1 {
+    font-size: 4em;
+  }
+  #para1 {
+    font-size: 1.2em;
+    color: grey;
+  }
+  #container5 {
+    height: 100%;
+    width: 100%;
+  }
+  #img {
+    width: 100%;
+  }
+  #container6 {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  #heading2 {
+    font-size: 3em;
+  }
+  #para2 {
+    font-size: 1.4em;
+    color: grey;
+  }
+  li {
+    font-size: 1.4em;
+  }
 }
-
-#heading2{
-
-    font-size:  3em;
-  }
-  #para2{
-      font-size:1.4em;
-      color:grey;
-  }
-  li{
-      font-size:1.4em;
-  }
-    }
-
+#para {
+  font-size: 2em;
+}

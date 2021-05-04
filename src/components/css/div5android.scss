@@ -1,0 +1,57 @@
+#Div5 {
+  @media screen and (max-width: 576px) {
+    margin-top: 100%;
+    #container1 {
+      padding: 2%;
+    }
+
+    #p1 {
+      width: 90%;
+      font-size: 1em;
+      margin-left: 5%;
+    }
+    body {
+      font-family: "Signika", sans-serif;
+    }
+
+    #card1 {
+      width: 100%;
+      border: 0px solid white;
+    }
+    .card,
+    .card-header,
+    .card-footer,
+    .card-body {
+      background-color: white;
+      border: 0px solid white;
+      text-align: center;
+      color: grey;
+      width: 100%;
+    }
+    #cardp {
+      font-size: 1.2em;
+      width: 100%;
+    }
+    #cardsub {
+      font-size: 1.3em;
+    }
+    #cardimg {
+      width: 60%;
+    }
+    ul {
+      list-style: square;
+    }
+    h1 {
+      font-size: 3.6em;
+      color: #264d00;
+    }
+    li {
+      text-align: left;
+    }
+    #leftcol {
+      vertical-align: middle;
+      margin-top: 22vh;
+      height: 50vh;
+    }
+  }
+}
